@@ -1,0 +1,7 @@
+﻿body{ background-color:ivory; padding:10px; }
+#canvas{position:absolute; border:1px solid red; margin:inherit;}
+#div{left: 10px;position: relative;}
+        .flipper {
+            cursor: pointer; 
+        }
+

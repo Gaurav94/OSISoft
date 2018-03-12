@@ -1,0 +1,7 @@
+c:\users\spg24\documents\visual studio 2013\Projects\PowerDashBoard\PowerDashBoard\bin\PowerDashBoard.dll.config
+c:\users\spg24\documents\visual studio 2013\Projects\PowerDashBoard\PowerDashBoard\bin\PowerDashBoard.dll
+c:\users\spg24\documents\visual studio 2013\Projects\PowerDashBoard\PowerDashBoard\bin\PowerDashBoard.pdb
+c:\users\spg24\documents\visual studio 2013\Projects\PowerDashBoard\PowerDashBoard\obj\Debug\PowerDashBoard.dll
+c:\users\spg24\documents\visual studio 2013\Projects\PowerDashBoard\PowerDashBoard\obj\Debug\PowerDashBoard.pdb
+c:\users\spg24\documents\visual studio 2013\Projects\PowerDashBoard\PowerDashBoard\bin\images\power-transformers-1477148.jpg
+C:\Users\spg24\Documents\Visual Studio 2013\Projects\PowerDashBoard\PowerDashBoard\obj\Debug\PowerDashBoard.csprojResolveAssemblyReference.cache
