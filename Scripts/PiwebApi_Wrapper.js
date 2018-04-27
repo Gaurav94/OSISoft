@@ -1,4 +1,4 @@
-﻿var afServerName = "PI-QA-AF.PSEG.COM";
+﻿var afServerName = "";
 var afDatabaseName = "Training_Database";
 //var efTemplateName = "StreetView_EFTemplate";
 
