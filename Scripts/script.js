@@ -78,7 +78,7 @@ function flip(n) {
 
 $(function () {
     root = new node('CMMS Asset Management', 'Elements',
-      { Elements: 'https://njnwkaps326v.enterprise.pseg.com/piwebapi/assetdatabases/D0DL80eV7eA0SMKofC0iIj1AEk6H66MvRE-rNoYuQG5yrwUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0U/elements' }, $("#root"));
+      { Elements: 'https://piwebapi/assetdatabases/D0DL80eV7eA0SMKofC0iIj1AEk6H66MvRE-rNoYuQG5yrwUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0U/elements' }, $("#root"));
 });
 
 
