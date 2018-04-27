@@ -1,8 +1,8 @@
 ﻿
 /*
 ////Please enter tree's root element's WebID address.
-var RootElement = 'https://njnwkaps326v/piwebapi/assetdatabases/D0DL80eV7eA0SMKofC0iIj1AEk6H66MvRE-rNoYuQG5yrwUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0U/elements';
-//var RootElement = 'https://njnwkaps326v/piwebapi/assetdatabases/D0DL80eV7eA0SMKofC0iIj1AEk6H66MvRE-rNoYuQG5yrwUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0U';
+var RootElement = 'https:///piwebapi/assetdatabases/D0DL80eV7eA0SMKofC0iIj1AEk6H66MvRE-rNoYuQG5yrwUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0U/elements';
+//var RootElement = 'https://piwebapi/assetdatabases/D0DL80eV7eA0SMKofC0iIj1AEk6H66MvRE-rNoYuQG5yrwUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0U';
 //Display path and CurrentElement
 var DisplayPath = 'CurrentElement=';
 var childrenMap = {
@@ -59,17 +59,17 @@ $(function() {
 //    $("#t1").click(function () {
 //        alert("Trans 1 called");
 
-//        $.getJSON("https://njnwkaps326v/piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) {document.getElementById("methane").innerHTML = data.Value})
-//        $.getJSON("https://njnwkaps326v/piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("ethane").innerHTML = data.Value })
-//        $.getJSON("https://njnwkaps326v/piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("acety").innerHTML = data.Value })
+//        $.getJSON("https://piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) {document.getElementById("methane").innerHTML = data.Value})
+//        $.getJSON("https://piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("ethane").innerHTML = data.Value })
+//        $.getJSON("https://piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("acety").innerHTML = data.Value })
 //    });
 
 //    $("#t2").click(function () {
 //        alert("Trans 2 called");
 
-//        $.getJSON("https://njnwkaps326v/piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1AnNXewJNx5xGA_gBQVqBPZwqw_NBiZu71E2WtTxYBSN3QUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIyfEMySDI/value", null, function (data) { document.getElementById("methane").innerHTML = data.Value })
-//        $.getJSON("https://njnwkaps326v/piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("ethane").innerHTML = data.Value })
-//        $.getJSON("https://njnwkaps326v/piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("acety").innerHTML = data.Value })
+//        $.getJSON("https://piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1AnNXewJNx5xGA_gBQVqBPZwqw_NBiZu71E2WtTxYBSN3QUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIyfEMySDI/value", null, function (data) { document.getElementById("methane").innerHTML = data.Value })
+//        $.getJSON("https://piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("ethane").innerHTML = data.Value })
+//        $.getJSON("https:/piwebapi/streams/A0EDL80eV7eA0SMKofC0iIj1Adq3lMnFx5xGA_gBQVqBPZwEzGOwOeO1F4p-4GfUd1LRAUEktUUEtQUYuUFNFRy5DT01cVFJBSU5JTkdfREFUQUJBU0VcRFVWQUwgQU5BTFlTSVNcVFJBTlNGT1JNRVIxfEMySDQ/value", null, function (data) { document.getElementById("acety").innerHTML = data.Value })
 
 //        var result = document.getElementById('methane').innerText + document.getElementById('ethane').innerText;
 
